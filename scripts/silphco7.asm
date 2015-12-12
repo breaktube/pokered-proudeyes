@@ -320,7 +320,7 @@ SilphCo7Text1:
 .givelapras
 	ld hl, .MeetLaprasGuyText
 	call PrintText
-	ld bc, (LAPRAS << 8) | 15
+	ld bc, (LAPRAS << 8) | 33
 	call GivePokemon
 	jr nc, .done
 	ld a, [wSimulatedJoypadStatesEnd]

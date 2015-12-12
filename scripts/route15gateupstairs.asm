@@ -10,7 +10,7 @@ Route15GateUpstairsText1: ; 49651 (12:5651)
 	ld a, [wd7dd]
 	bit 0, a
 	jr nz, .asm_49683 ; 0x49657 $2a
-	ld a, 50 ; pokemon needed
+	ld a, 40 ; pokemon needed
 	ld [$ffdb], a
 	ld a, EXP__ALL ; oak's aide reward
 	ld [$ffdc], a

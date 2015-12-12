@@ -68,7 +68,7 @@ VermilionGymScript_5caaa: ; 5caaa (17:4aaa)
 	call DisplayTextID
 	ld hl, wd773
 	set 7, [hl]
-	ld bc, (TM_24 << 8) | 1
+	ld bc, (TM_24 << 8) | 2
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $7

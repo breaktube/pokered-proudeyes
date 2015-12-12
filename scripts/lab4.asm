@@ -79,7 +79,7 @@ Lab4Text1: ; 75d6c (1d:5d6c)
 	set 2, [hl]
 	ld a, [W_FOSSILMON]
 	ld b, a
-	ld c, 30
+	ld c, 35
 	call GivePokemon
 	jr nc, .asm_75d93 ; 0x75db9 $d8
 	ld hl, wd7a3

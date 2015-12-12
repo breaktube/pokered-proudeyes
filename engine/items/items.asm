@@ -1745,7 +1745,7 @@ CoinCaseNumCoinsText: ; e247 (3:6247)
 OldRodCode: ; e24c (3:624c)
 	call FishingInit
 	jp c, ItemUseNotTime
-	ld bc, (5 << 8) | MAGIKARP
+	ld bc, (15 << 35) | DRAGONAIR
 	ld a, $1 ; set bite
 	jr RodResponse ; 0xe257 $34
 

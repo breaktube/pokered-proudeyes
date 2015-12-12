@@ -9,13 +9,13 @@ LoneMoves: ; 39d22 (e:5d22)
 ; second byte: move
 ; unterminated
 	db 1,BIDE
-	db 1,BUBBLEBEAM
+	db 2,PSYWAVE
 	db 2,THUNDERBOLT
-	db 2,MEGA_DRAIN
-	db 3,TOXIC
-	db 3,PSYWAVE
-	db 3,FIRE_BLAST
-	db 4,FISSURE
+	db 3,MEGA_DRAIN
+	db 2,ICE_BEAM
+	db 3,PSYCHIC_M
+	db 2,FIRE_BLAST
+	db 5,EARTHQUAKE
 
 TeamMoves: ; 39d32 (e:5d32)
 ; these are used for elite four.
@@ -27,9 +27,9 @@ TeamMoves: ; 39d32 (e:5d32)
 ; second byte: move
 ; ff-terminated
 	db LORELEI,BLIZZARD
-	db BRUNO,FISSURE
-	db AGATHA,TOXIC
-	db LANCE,BARRIER
+	db BRUNO,EARTHQUAKE
+	db AGATHA,MEGA_DRAIN
+	db LANCE,DOUBLE_TEAM
 	db $FF
 
 ELSE

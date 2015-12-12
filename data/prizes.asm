@@ -12,58 +12,58 @@ NoThanksText: ; 5284f (14:684f)
 	db "NO THANKS@"
 
 PrizeMenuMon1Entries: ; 52859 (14:6859)
-	db ABRA
-	db CLEFAIRY
+	db BULBASAUR
+	db CHARMANDER
 IF DEF(_RED)
-	db NIDORINA
+	db SQUIRTLE
 ENDC
 IF DEF(_BLUE)
-	db NIDORINO
+	db SQUIRTLE
 ENDC
 	db "@"
 PrizeMenuMon1Cost: ; 5285d (14:685d)
 IF DEF(_RED)
-	db $01,$80
+	db $05,$00
 	db $05,$00
 ENDC
 IF DEF(_BLUE)
-	db $01,$20
-	db $07,$50
+	db $05,$00
+	db $05,$00
 ENDC
-	db $12,$00
+	db $05,$00
 	db "@"
 
 PrizeMenuMon2Entries: ; 52864 (14:6864)
 IF DEF(_RED)
-	db DRATINI
-	db SCYTHER
+	db ELECTABUZZ
+	db MAGMAR
 ENDC
 IF DEF(_BLUE)
-	db PINSIR
-	db DRATINI
+	db ELECTABUZZ
+	db MAGMAR
 ENDC
-	db PORYGON
+	db JYNX
 	db "@"
 PrizeMenuMon2Cost: ; 52868 (14:6868)
 IF DEF(_RED)
-	db $28,$00
-	db $55,$00
-	db $99,$99
+	db $10,$00
+	db $10,$00
+	db $10,$00
 ENDC
 IF DEF(_BLUE)
-	db $25,$00
-	db $46,$00
-	db $65,$00
+	db $10,$00
+	db $10,$00
+	db $10,$00
 ENDC
 	db "@"
 
 PrizeMenuTMsEntries: ; 5286f (14:686f)
-	db TM_23
-	db TM_15
-	db TM_50
+	db ETHER
+	db MAX_REVIVE
+	db PP_UP
 	db "@"
 PrizeMenuTMsCost: ; 52873 (14:6873)
-	db $33,$00 ; 3300 Coins
-	db $55,$00 ; 5500 Coins
-	db $77,$00 ; 7700 Coins
+	db $07,$50 ; 3300 Coins
+	db $12,$50 ; 5500 Coins
+	db $20,$00 ; 7700 Coins
 	db "@"

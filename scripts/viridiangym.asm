@@ -148,7 +148,7 @@ ViridianGymScript3_74995: ; 74995 (1d:4995)
 	call DisplayTextID
 	ld hl, wd751
 	set 1, [hl]
-	ld bc, (TM_27 << 8) | 1
+	ld bc, (TM_27 << 8) | 2
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $d

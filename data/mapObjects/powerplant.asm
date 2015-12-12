@@ -17,7 +17,7 @@ PowerPlantObject: ; 0x1e3bf (size=135)
 	db SPRITE_BALL, $1c + 4, $1a + 4, $ff, $ff, TRAINER | $6, VOLTORB, 40
 	db SPRITE_BALL, $e + 4, $15 + 4, $ff, $ff, TRAINER | $7, ELECTRODE, 43
 	db SPRITE_BALL, $20 + 4, $25 + 4, $ff, $ff, TRAINER | $8, VOLTORB, 40
-	db SPRITE_BIRD, $9 + 4, $4 + 4, $ff, $d1, TRAINER | $9, ZAPDOS, 50
+	db SPRITE_BIRD, $9 + 4, $4 + 4, $ff, $d1, TRAINER | $9, ZAPDOS, 55
 	db SPRITE_BALL, $19 + 4, $7 + 4, $ff, $ff, ITEM | $a, CARBOS
 	db SPRITE_BALL, $3 + 4, $1c + 4, $ff, $ff, ITEM | $b, HP_UP
 	db SPRITE_BALL, $3 + 4, $22 + 4, $ff, $ff, ITEM | $c, RARE_CANDY

@@ -48,7 +48,7 @@ FuchsiaGymScript3_75497: ; 75497 (1d:5497)
 	call DisplayTextID
 	ld hl, wd792
 	set 1, [hl]
-	ld bc, (TM_06 << 8) | 1
+	ld bc, (TM_06 << 8) | 2
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $a

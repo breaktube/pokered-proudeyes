@@ -20,7 +20,7 @@ Route11GateUpstairsText2: ; 4946c (12:546c)
 	ld a, [wd7d6]
 	add a
 	jr c, .asm_4949b ; 0x49471 $28
-	ld a, 30 ; pokemon needed
+	ld a, 20 ; pokemon needed
 	ld [$ffdb], a
 	ld a, ITEMFINDER ; oak's aide reward
 	ld [$ffdc], a
