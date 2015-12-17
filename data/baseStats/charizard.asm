@@ -8,7 +8,7 @@ db 109 ; base special
 db FIRE ; species type 1
 db FLYING ; species type 2
 db 20 ; catch rate
-db 328 ; base exp yield
+db 250 ; base exp yield
 INCBIN "pic/bmon/charizard.pic",0,1 ; 77, sprite dimensions
 dw CharizardPicFront
 dw CharizardPicBack
