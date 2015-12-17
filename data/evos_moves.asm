@@ -291,13 +291,14 @@ Mon002_EvosMoves: ; 3b24b (e:724b)
 	db EV_LEVEL,32,VENUSAUR
 	db 0
 ;Learnset
-	db 7,LEECH_SEED
-	db 13,VINE_WHIP
-	db 22,POISONPOWDER
-	db 30,RAZOR_LEAF
-	db 38,GROWTH
-	db 46,SLEEP_POWDER
-	db 54,SOLARBEAM
+	db 16,RAZOR_LEAF
+	db 20,RAZOR_LEAF
+	db 20,SLEEP_POWDER
+	db 23,GROWTH
+	db 28,TAKE_DOWN
+	db 31,AMNESIA
+	db 36,SKULL_BASH
+	db 42,SOLARBEAM
 	db 0
 Mon103_EvosMoves: ; 3b25e (e:725e)
 ;EXEGGUTOR
@@ -311,11 +312,16 @@ Mon108_EvosMoves: ; 3b262 (e:7262)
 ;Evolutions
 	db 0
 ;Learnset
-	db 7,STOMP
-	db 15,DISABLE
-	db 23,DEFENSE_CURL
-	db 31,SLAM
-	db 39,SCREECH
+	db 7,LICK
+	db 11,DEFENSE_CURL
+	db 16,STOMP
+	db 20,DISABLE
+	db 25,BIND
+	db 29,SCREECH
+	db 33,SEISMIC_TOSS
+	db 37,AMNESIA
+	db 41,BODY_SLAM
+	db 44,COUNTER
 	db 0
 Mon102_EvosMoves: ; 3b26e (e:726e)
 ;EXEGGCUTE
@@ -504,12 +510,11 @@ Mon009_EvosMoves: ; 3b346 (e:7346)
 ;Evolutions
 	db 0
 ;Learnset
-	db 8,BUBBLE
-	db 15,WATER_GUN
-	db 24,BITE
-	db 31,WITHDRAW
-	db 42,SKULL_BASH
-	db 52,HYDRO_PUMP
+	db 36,BODY_SLAM
+	db 39,DEFENSE_CURL
+	db 46,SEISMIC_TOSS
+	db 50,HYDRO_PUMP
+	db 51,WATERFALL
 	db 0
 Mon127_EvosMoves: ; 3b354 (e:7354)
 ;PINSIR
@@ -1020,11 +1025,15 @@ Mon052_EvosMoves: ; 3b55c (e:755c)
 	db EV_LEVEL,28,PERSIAN
 	db 0
 ;Learnset
-	db 12,BITE
-	db 17,PAY_DAY
-	db 24,SCREECH
-	db 33,FURY_SWIPES
-	db 44,SLASH
+	db 7,FURY_SWIPES
+	db 10,TAIL_WHIP
+	db 14,PAY_DAY
+	db 17,MIMIC
+	db 22,BITE
+	db 25,SCREECH
+	db 30,SWIFT
+	db 33,AMNESIA
+	db 39,SLASH
 	db 0
 Mon098_EvosMoves: ; 3b56b (e:756b)
 ;KRABBY
@@ -1682,11 +1691,10 @@ Mon053_EvosMoves: ; 3b7ed (e:77ed)
 ;Evolutions
 	db 0
 ;Learnset
-	db 12,BITE
-	db 17,PAY_DAY
-	db 24,SCREECH
-	db 37,FURY_SWIPES
-	db 51,SLASH
+	db 28,HYPNOSIS
+	db 32,SLASH
+	db 37,AMNESIA
+	db 44,SWIFT
 	db 0
 Mon105_EvosMoves: ; 3b7f9 (e:77f9)
 ;MAROWAK
@@ -1771,26 +1779,29 @@ Mon001_EvosMoves: ; 3b844 (e:7844)
 	db EV_LEVEL,16,IVYSAUR
 	db 0
 ;Learnset
-	db 7,LEECH_SEED
-	db 13,VINE_WHIP
-	db 20,POISONPOWDER
-	db 27,RAZOR_LEAF
-	db 34,GROWTH
-	db 41,SLEEP_POWDER
-	db 48,SOLARBEAM
-	db 0
+	db 7,VINE_WHIP
+	db 9,LEECH_SEED
+	db 13,POISONPOWDER
+	db 15,BIND
+	db 19,SLEEP_POWDER
+	db 21,RAZOR_LEAF
+	db 25,GROWTH
+	db 27,TAKE_DOWN
+	db 31,AMNESIA
+	db 33,SKULL_BASH
+	db 37,MEGA_DRAIN
+	db 0,
 Mon003_EvosMoves: ; 3b857 (e:7857)
 ;VENUSAUR
 ;Evolutions
 	db 0
 ;Learnset
-	db 7,LEECH_SEED
-	db 13,VINE_WHIP
-	db 22,POISONPOWDER
-	db 30,RAZOR_LEAF
-	db 43,GROWTH
-	db 55,SLEEP_POWDER
-	db 65,SOLARBEAM
+	db 32,SLUDGE
+	db 39,DOUBLE_EDGE
+	db 45,SOLARBEAM
+	db 50,PETAL_DANCE
+	db 51,LEECH_SEED
+	db 52,SLEEP_POWDER
 	db 0
 Mon073_EvosMoves: ; 3b867 (e:7867)
 ;TENTACRUEL
@@ -1897,20 +1908,26 @@ Mon019_EvosMoves: ; 3b8c1 (e:78c1)
 	db EV_LEVEL,20,RATICATE
 	db 0
 ;Learnset
-	db 7,QUICK_ATTACK
-	db 14,HYPER_FANG
-	db 23,FOCUS_ENERGY
-	db 34,SUPER_FANG
+	db 7,FOCUS_ENERGY
+	db 10,QUICK_ATTACK
+	db 13,COUNTER
+	db 16,FURY_SWIPES
+	db 22,SCREECH
+	db 25,BITE
+	db 28,SUPER_FANG
+	db 31,HYPER_FANG
 	db 0
 Mon020_EvosMoves: ; 3b8ce (e:78ce)
 ;RATICATE
 ;Evolutions
 	db 0
 ;Learnset
-	db 7,QUICK_ATTACK
-	db 14,HYPER_FANG
-	db 27,FOCUS_ENERGY
-	db 41,SUPER_FANG
+	db 20,BITE
+	db 24,SWORDS_DANCE
+	db 29,SUPER_FANG
+	db 34,SCREECH
+	db 39,HYPER_FANG
+	db 44,DOUBLE_EDGE
 	db 0
 Mon033_EvosMoves: ; 3b8d8 (e:78d8)
 ;NIDORINO
@@ -2011,12 +2028,13 @@ Mon004_EvosMoves: ; 3b938 (e:7938)
 	db EV_LEVEL,16,CHARMELEON
 	db 0
 ;Learnset
-	db 9,EMBER
-	db 15,LEER
-	db 22,RAGE
-	db 30,SLASH
-	db 38,FLAMETHROWER
-	db 46,FIRE_SPIN
+	db 7,EMBER
+	db 10,SMOKESCREEN
+	db 19,BITE
+	db 25,DEFENSE_CURL
+	db 28,COUNTER
+	db 34,SLASH
+	db 37,FIRE_SPIN
 	db 0
 Mon007_EvosMoves: ; 3b949 (e:7949)
 ;SQUIRTLE
@@ -2024,12 +2042,16 @@ Mon007_EvosMoves: ; 3b949 (e:7949)
 	db EV_LEVEL,16,WARTORTLE
 	db 0
 ;Learnset
-	db 8,BUBBLE
-	db 15,WATER_GUN
+	db 7,BUBBLE
+	db 10,WITHDRAW
+	db 13,MIST
+	db 19,WATER_GUN
 	db 22,BITE
-	db 28,WITHDRAW
-	db 35,SKULL_BASH
-	db 42,HYDRO_PUMP
+	db 25,HAZE
+	db 28,COUNTER
+	db 31,MIMIC
+	db 34,HEADBUTT
+	db 37,BUBBLEBEAM
 	db 0
 Mon005_EvosMoves: ; 3b95a (e:795a)
 ;CHARMELEON
@@ -2037,12 +2059,12 @@ Mon005_EvosMoves: ; 3b95a (e:795a)
 	db EV_LEVEL,36,CHARIZARD
 	db 0
 ;Learnset
-	db 9,EMBER
-	db 15,LEER
-	db 24,RAGE
-	db 33,SLASH
+	db 16,DRAGON_RAGE
+	db 21,BITE
+	db 28,DEFENSE_CURL
+	db 32,RAGE
+	db 39,SLASH
 	db 42,FLAMETHROWER
-	db 56,FIRE_SPIN
 	db 0
 Mon008_EvosMoves: ; 3b96b (e:796b)
 ;WARTORTLE
@@ -2050,24 +2072,26 @@ Mon008_EvosMoves: ; 3b96b (e:796b)
 	db EV_LEVEL,36,BLASTOISE
 	db 0
 ;Learnset
-	db 8,BUBBLE
-	db 15,WATER_GUN
-	db 24,BITE
-	db 31,WITHDRAW
-	db 39,SKULL_BASH
-	db 47,HYDRO_PUMP
+	db 16,WATER_GUN
+	db 20,BITE
+	db 24,MIST
+	db 28,HEADBUTT
+	db 32,HAZE
+	db 36,COUNTER
+	db 40,SKULL_BASH
+	db 42,HYDRO_PUMP
 	db 0
 Mon006_EvosMoves: ; 3b97c (e:797c)
 ;CHARIZARD
 ;Evolutions
 	db 0
 ;Learnset
-	db 9,EMBER
-	db 15,LEER
-	db 24,RAGE
-	db 36,SLASH
-	db 46,FLAMETHROWER
-	db 55,FIRE_SPIN
+	db 36,FIRE_PUNCH
+	db 41,WING_ATTACK
+	db 47,FIRE_SPIN
+	db 50,FLAMETHROWER
+	db 51,SLASH
+	db 52,FIRE_BLAST
 	db 0
 
 Mon187_EvosMoves: ; 3b98a (e:798a)

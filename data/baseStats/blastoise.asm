@@ -4,19 +4,19 @@ db 79 ; base hp
 db 83 ; base attack
 db 100 ; base defense
 db 78 ; base speed
-db 85 ; base special
+db 105 ; base special
 db WATER ; species type 1
 db WATER ; species type 2
-db 45 ; catch rate
-db 210 ; base exp yield
+db 20 ; catch rate
+db 328 ; base exp yield
 INCBIN "pic/bmon/blastoise.pic",0,1 ; 77, sprite dimensions
 dw BlastoisePicFront
 dw BlastoisePicBack
 ; attacks known at lvl 0
-db TACKLE
-db TAIL_WHIP
-db BUBBLE
-db WATER_GUN
+db COUNTER
+db DEFENSE_CURL
+db BUBBLEBEAM
+db 0
 db 3 ; growth rate
 ; learnset
 db %10110001

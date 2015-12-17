@@ -4,11 +4,11 @@ db 44 ; base hp
 db 48 ; base attack
 db 65 ; base defense
 db 43 ; base speed
-db 50 ; base special
+db 64 ; base special
 db WATER ; species type 1
 db WATER ; species type 2
-db 45 ; catch rate
-db 66 ; base exp yield
+db 225 ; catch rate
+db 103 ; base exp yield
 INCBIN "pic/bmon/squirtle.pic",0,1 ; 55, sprite dimensions
 dw SquirtlePicFront
 dw SquirtlePicBack

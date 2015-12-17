@@ -528,9 +528,9 @@ RockTunnelPokecenterHiddenObjects: ; 46e3a (11:6e3a)
 	dw OpenPokemonCenterPC
 	db $FF
 ViridianForestHiddenObjects: ; 46e47 (11:6e47)
-	db $12,$01,POTION
+	db $12,$01,X_DEFEND
 	dbw BANK(HiddenItems),HiddenItems
-	db $2a,$10,ANTIDOTE
+	db $2a,$10,LEAF_STONE
 	dbw BANK(HiddenItems),HiddenItems
 	db $FF
 MtMoon3HiddenObjects: ; 46e54 (11:6e54)
@@ -699,7 +699,7 @@ BillsHouseHiddenObjects: ; 46f86 (11:6f86)
 	dbw BANK(BillsHousePC), BillsHousePC
 	db $FF
 ViridianCityHiddenObjects: ; 46f8d (11:6f8d)
-	db $04,$0e,POTION
+	db $04,$0e,NUGGET
 	dbw BANK(HiddenItems),HiddenItems
 	db $FF
 SafariZoneRestHouse2HiddenObjects: ; 46f94 (11:6f94)
