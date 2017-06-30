@@ -7,15 +7,15 @@ db 65 ; base speed
 db 55 ; base special
 db POISON ; species type 1
 db POISON ; species type 2
-db 120 ; catch rate
-db 118 ; base exp yield
+db 90 ; catch rate
+db 128 ; base exp yield
 INCBIN "pic/bmon/nidorino.pic",0,1 ; 66, sprite dimensions
 dw NidorinoPicFront
 dw NidorinoPicBack
 ; attacks known at lvl 0
-db LEER
-db TACKLE
-db HORN_ATTACK
+db FURY_ATTACK
+db SUPERSONIC
+db POISON_STING
 db 0
 db 3 ; growth rate
 ; learnset

@@ -7,14 +7,14 @@ db 56 ; base speed
 db 35 ; base special
 db NORMAL ; species type 1
 db FLYING ; species type 2
-db 255 ; catch rate
-db 55 ; base exp yield
+db 115 ; catch rate
+db 78 ; base exp yield
 INCBIN "pic/bmon/pidgey.pic",0,1 ; 55, sprite dimensions
 dw PidgeyPicFront
 dw PidgeyPicBack
 ; attacks known at lvl 0
-db GUST
-db 0
+db TACKLE
+db SAND_ATTACK
 db 0
 db 0
 db 3 ; growth rate

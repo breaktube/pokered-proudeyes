@@ -1,7 +1,7 @@
 TitleMons: ; 4588 (1:4588)
 ; mons on the title screen are randomly chosen from here
 IF DEF(_RED)
-	db CHARIZARD
+	db MAGMAR
 	db MEW
 	db ARCANINE
 	db MAGNETON
@@ -19,7 +19,7 @@ IF DEF(_RED)
 	db RAPIDASH
 ENDC
 IF DEF(_GREEN)
-	db CHARIZARD
+	db MAGMAR
 	db MEW
 	db ARCANINE
 	db MAGNETON
@@ -37,7 +37,7 @@ IF DEF(_GREEN)
 	db RAPIDASH
 ENDC
 IF DEF(_BLUE)
-	db CHARIZARD
+	db MAGMAR
 	db MEW
 	db ARCANINE
 	db MAGNETON

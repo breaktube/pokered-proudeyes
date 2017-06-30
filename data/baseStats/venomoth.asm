@@ -7,20 +7,20 @@ db 90 ; base speed
 db 90 ; base special
 db BUG ; species type 1
 db POISON ; species type 2
-db 75 ; catch rate
-db 138 ; base exp yield
+db 65 ; catch rate
+db 188 ; base exp yield
 INCBIN "pic/bmon/venomoth.pic",0,1 ; 77, sprite dimensions
 dw VenomothPicFront
 dw VenomothPicBack
 ; attacks known at lvl 0
-db TACKLE
-db DISABLE
+db LEECH_LIFE
+db SLEEP_POWDER
 IF DEF(_YELLOW)
-	db SUPERSONIC
-	db CONFUSION
+	db GUST
+	db 0
 ELSE
-	db POISONPOWDER
-	db LEECH_LIFE
+	db GUST
+	db 0
 ENDC
 db 0 ; growth rate
 ; learnset

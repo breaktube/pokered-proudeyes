@@ -219,12 +219,14 @@ Mon032_EvosMoves: ; 3b1f2 (e:71f2)
 	db EV_LEVEL,16,NIDORINO
 	db 0
 ;Learnset
-	db 8,HORN_ATTACK
-	db 14,POISON_STING
-	db 21,FOCUS_ENERGY
-	db 29,FURY_ATTACK
-	db 36,HORN_DRILL
-	db 43,DOUBLE_KICK
+	db 9,FOCUS_ENERGY
+	db 13,POISON_STING
+	db 19,COUNTER
+	db 21,FURY_ATTACK
+	db 25,HORN_ATTACK
+	db 31,TAKE_DOWN
+	db 33,SUPER_FANG
+	db 37,HORN_DRILL
 	db 0
 Mon035_EvosMoves: ; 3b203 (e:7203)
 ;CLEFAIRY
@@ -268,9 +270,10 @@ Mon034_EvosMoves: ; 3b233 (e:7233)
 ;Evolutions
 	db 0
 ;Learnset
-	db 8,HORN_ATTACK
-	db 14,POISON_STING
-	db 23,THRASH
+	db 30,AMNESIA
+	db 35,HORN_DRILL
+	db 43,DOUBLE_TEAM
+	db 50,THRASH
 	db 0
 Mon080_EvosMoves: ; 3b23b (e:723b)
 ;SLOWBRO
@@ -363,21 +366,24 @@ Mon029_EvosMoves: ; 3b297 (e:7297)
 	db EV_LEVEL,16,NIDORINA
 	db 0
 ;Learnset
-	db 8,SCRATCH
-	db 14,POISON_STING
-	db 21,TAIL_WHIP
-	db 29,BITE
-	db 36,FURY_SWIPES
-	db 43,DOUBLE_KICK
+	db 9,POISON_STING
+	db 13,FURY_SWIPES
+	db 19,FOCUS_ENERGY
+	db 21,BITE
+	db 25,TAIL_WHIP
+	db 31,DOUBLE_KICK
+	db 33,COUNTER
+	db 37,SUPER_FANG
 	db 0
 Mon031_EvosMoves: ; 3b2a8 (e:72a8)
 ;NIDOQUEEN
 ;Evolutions
 	db 0
 ;Learnset
-	db 8,SCRATCH
-	db 14,POISON_STING
-	db 23,BODY_SLAM
+	db 30,MEGA_PUNCH
+	db 35,SEISMIC_TOSS
+	db 43,BODY_SLAM
+	db 50,SUPER_FANG
 	db 0
 Mon104_EvosMoves: ; 3b2b0 (e:72b0)
 ;CUBONE
@@ -385,11 +391,14 @@ Mon104_EvosMoves: ; 3b2b0 (e:72b0)
 	db EV_LEVEL,28,MAROWAK
 	db 0
 ;Learnset
-	db 25,LEER
-	db 31,FOCUS_ENERGY
-	db 38,THRASH
-	db 43,BONEMERANG
-	db 46,RAGE
+	db 11,BONE_CLUB
+	db 13,TAIL_WHIP
+	db 17,FOCUS_ENERGY
+	db 21,LOW_KICK
+	db 23,COUNTER
+	db 31,BONEMERANG
+	db 33,SCREECH
+	db 39,DOUBLE_KICK
 	db 0
 Mon111_EvosMoves: ; 3b2bf (e:72bf)
 ;RHYHORN
@@ -484,12 +493,15 @@ Mon123_EvosMoves: ; 3b324 (e:7324)
 ;Evolutions
 	db 0
 ;Learnset
-	db 17,LEER
-	db 20,FOCUS_ENERGY
-	db 24,DOUBLE_TEAM
+	db 13,QUICK_ATTACK
+	db 17,SWORDS_DANCE
+	db 21,WING_ATTACK
+	db 25,DOUBLE_TEAM
 	db 29,SLASH
-	db 35,SWORDS_DANCE
-	db 42,AGILITY
+	db 33,LIGHT_SCREEN
+	db 37,RAZOR_WIND
+	db 41,AGILITY
+	db 44,REST
 	db 0
 Mon120_EvosMoves: ; 3b332 (e:7332)
 ;STARYU
@@ -533,12 +545,19 @@ Mon114_EvosMoves: ; 3b362 (e:7362)
 ;Evolutions
 	db 0
 ;Learnset
-	db 29,ABSORB
-	db 32,POISONPOWDER
-	db 36,STUN_SPORE
-	db 39,SLEEP_POWDER
-	db 45,SLAM
-	db 49,GROWTH
+	db 7,ABSORB
+	db 10,POISONPOWDER
+	db 14,BIND
+	db 17,GROWTH
+	db 20,STUN_SPORE
+	db 23,VINE_WHIP
+	db 27,LEECH_SEED
+	db 30,SLAM
+	db 33,MIMIC
+	db 36,MEGA_DRAIN
+	db 38,AMNESIA
+	db 41,CONFUSION
+	db 44,HEADBUTT
 	db 0
 
 Mon152_EvosMoves: ; 3b370 (e:7370)
@@ -571,11 +590,16 @@ Mon095_EvosMoves: ; 3b384 (e:7384)
 ;Evolutions
 	db 0
 ;Learnset
-	db 15,BIND
-	db 19,ROCK_THROW
-	db 25,RAGE
-	db 33,SLAM
-	db 43,HARDEN
+	db 13,ROCK_THROW
+	db 16,RAGE
+	db 19,BODY_SLAM
+	db 22,MIMIC
+	db 25,ROCK_SLIDE
+	db 28,SCREECH
+	db 31,DIG
+	db 34,SELFDESTRUCT
+	db 37,DOUBLE_EDGE
+	db 44,EARTHQUAKE
 	db 0
 Mon022_EvosMoves: ; 3b390 (e:7390)
 ;FEAROW
@@ -594,12 +618,13 @@ Mon016_EvosMoves: ; 3b39c (e:739c)
 	db EV_LEVEL,18,PIDGEOTTO
 	db 0
 ;Learnset
-	db 5,SAND_ATTACK
-	db 12,QUICK_ATTACK
-	db 19,WHIRLWIND
-	db 28,WING_ATTACK
-	db 36,AGILITY
-	db 44,MIRROR_MOVE
+	db 9,GUST
+	db 13,AGILITY
+	db 17,QUICK_ATTACK
+	db 21,WHIRLWIND
+	db 25,WING_ATTACK
+	db 29,MIRROR_MOVE
+	db 33,SWIFT
 	db 0
 Mon079_EvosMoves: ; 3b3ad (e:73ad)
 ;SLOWPOKE
@@ -633,12 +658,11 @@ Mon075_EvosMoves: ; 3b3cf (e:73cf)
 	db EV_TRADE,1,GOLEM
 	db 0
 ;Learnset
-	db 11,DEFENSE_CURL
-	db 16,ROCK_THROW
-	db 21,SELFDESTRUCT
-	db 29,HARDEN
+	db 25,ROCK_SLIDE
+	db 27,DIG
+	db 31,SELFDESTRUCT
 	db 36,EARTHQUAKE
-	db 43,EXPLOSION
+	db 42,EXPLOSION
 	db 0
 Mon113_EvosMoves: ; 3b3e0 (e:73e0)
 ;CHANSEY
@@ -702,22 +726,23 @@ Mon024_EvosMoves: ; 3b421 (e:7421)
 ;Evolutions
 	db 0
 ;Learnset
-	db 10,POISON_STING
-	db 17,BITE
-	db 27,GLARE
-	db 36,SCREECH
-	db 47,ACID
+	db 22,MEGA_DRAIN
+	db 27,SCREECH
+	db 32,BITE
+	db 39,DISABLE
+	db 44,HEADBUTT
+	db 47,MIMIC
 	db 0
 Mon047_EvosMoves: ; 3b42d (e:742d)
 ;PARASECT
 ;Evolutions
 	db 0
 ;Learnset
-	db 13,STUN_SPORE
-	db 20,LEECH_LIFE
-	db 30,SPORE
-	db 39,SLASH
-	db 48,GROWTH
+	db 24,SCREECH
+	db 29,SLASH
+	db 37,MEGA_DRAIN
+	db 44,LEECH_SEED
+	db 47,PSYBEAM
 	db 0
 Mon054_EvosMoves: ; 3b439 (e:7439)
 ;PSYDUCK
@@ -725,11 +750,15 @@ Mon054_EvosMoves: ; 3b439 (e:7439)
 	db EV_LEVEL,33,GOLDUCK
 	db 0
 ;Learnset
-	db 28,TAIL_WHIP
-	db 31,DISABLE
-	db 36,CONFUSION
-	db 43,FURY_SWIPES
-	db 52,HYDRO_PUMP
+	db 8,BUBBLE
+	db 11,DISABLE
+	db 15,FURY_SWIPES
+	db 18,CONFUSION
+	db 22,CONFUSE_RAY
+	db 25,WATER_GUN
+	db 29,HEADBUTT
+	db 36,PSYBEAM
+	db 39,AMNESIA
 	db 0
 Mon096_EvosMoves: ; 3b448 (e:7448)
 ;DROWZEE
@@ -749,12 +778,11 @@ Mon076_EvosMoves: ; 3b459 (e:7459)
 ;Evolutions
 	db 0
 ;Learnset
-	db 11,DEFENSE_CURL
-	db 16,ROCK_THROW
-	db 21,SELFDESTRUCT
-	db 29,HARDEN
-	db 36,EARTHQUAKE
-	db 43,EXPLOSION
+	db 31,SEISMIC_TOSS
+	db 36,ROCK_SLIDE
+	db 42,EARTHQUAKE
+	db 47,DOUBLE_EDGE
+	db 50,EXPLOSION
 	db 0
 
 Mon154_EvosMoves: ; 3b467 (e:7467)
@@ -830,11 +858,13 @@ Mon056_EvosMoves: ; 3b4a4 (e:74a4)
 	db EV_LEVEL,28,PRIMEAPE
 	db 0
 ;Learnset
-	db 15,KARATE_CHOP
-	db 21,FURY_SWIPES
-	db 27,FOCUS_ENERGY
-	db 33,SEISMIC_TOSS
-	db 39,THRASH
+	db 9,LOW_KICK
+	db 13,FOCUS_ENERGY
+	db 17,FURY_SWIPES
+	db 21,COUNTER
+	db 25,KARATE_CHOP
+	db 33,SCREECH
+	db 39,MEGA_PUNCH
 	db 0
 Mon086_EvosMoves: ; 3b4b3 (e:74b3)
 ;SEEL
@@ -854,11 +884,13 @@ Mon050_EvosMoves: ; 3b4c2 (e:74c2)
 	db EV_LEVEL,26,DUGTRIO
 	db 0
 ;Learnset
-	db 15,GROWL
-	db 19,DIG
-	db 24,SAND_ATTACK
-	db 31,SLASH
-	db 40,EARTHQUAKE
+	db 12,GROWL
+	db 15,DIG
+	db 18,MIMIC
+	db 23,BODY_SLAM
+	db 29,SCREECH
+	db 34,SLASH
+	db 39,EARTHQUAKE
 	db 0
 Mon128_EvosMoves: ; 3b4d1 (e:74d1)
 ;TAUROS
@@ -909,12 +941,14 @@ Mon048_EvosMoves: ; 3b4ef (e:74ef)
 	db EV_LEVEL,31,VENOMOTH
 	db 0
 ;Learnset
-	db 24,POISONPOWDER
-	db 27,LEECH_LIFE
-	db 30,STUN_SPORE
+	db 11,LEECH_LIFE
+	db 13,POISONPOWDER
+	db 17,SWIFT
+	db 23,SUPERSONIC
+	db 25,CONFUSION
+	db 29,SLEEP_POWDER
 	db 35,PSYBEAM
-	db 38,SLEEP_POWDER
-	db 43,PSYCHIC_M
+	db 39,MEGA_DRAIN
 	db 0
 Mon149_EvosMoves: ; 3b500 (e:7500)
 ;DRAGONITE
@@ -954,12 +988,15 @@ Mon084_EvosMoves: ; 3b512 (e:7512)
 	db EV_LEVEL,31,DODRIO
 	db 0
 ;Learnset
-	db 20,GROWL
-	db 24,FURY_ATTACK
-	db 30,DRILL_PECK
-	db 36,RAGE
-	db 40,TRI_ATTACK
-	db 44,AGILITY
+	db 9,RAGE
+	db 13,HAZE
+	db 17,QUICK_ATTACK
+	db 21,AGILITY
+	db 25,FURY_ATTACK
+	db 29,MIRROR_MOVE
+	db 33,DRILL_PECK
+	db 37,SUPERSONIC
+	db 39,THRASH
 	db 0
 Mon060_EvosMoves: ; 3b523 (e:7523)
 ;POLIWAG
@@ -1349,11 +1386,14 @@ Mon023_EvosMoves: ; 3b6ae (e:76ae)
 	db EV_LEVEL,22,ARBOK
 	db 0
 ;Learnset
-	db 10,POISON_STING
-	db 17,BITE
-	db 24,GLARE
-	db 31,SCREECH
-	db 38,ACID
+	db 9,BIND
+	db 12,GLARE
+	db 17,ACID
+	db 25,DISABLE
+	db 28,WRAP
+	db 33,HAZE
+	db 36,SLAM
+	db 39,SCREECH
 	db 0
 Mon046_EvosMoves: ; 3b6bd (e:76bd)
 ;PARAS
@@ -1361,11 +1401,12 @@ Mon046_EvosMoves: ; 3b6bd (e:76bd)
 	db EV_LEVEL,24,PARASECT
 	db 0
 ;Learnset
-	db 13,STUN_SPORE
-	db 20,LEECH_LIFE
-	db 27,SPORE
-	db 34,SLASH
-	db 41,GROWTH
+	db 11,LEECH_LIFE
+	db 17,STUN_SPORE
+	db 22,SPORE
+	db 27,SLASH
+	db 33,LEECH_SEED
+	db 39,MEGA_DRAIN
 	db 0
 Mon061_EvosMoves: ; 3b6cc (e:76cc)
 ;POLIWHIRL
@@ -1401,18 +1442,24 @@ Mon014_EvosMoves: ; 3b6e9 (e:76e9)
 	db EV_LEVEL,10,BEEDRILL
 	db 0
 ;Learnset
+	db 7,HARDEN
+	db 9,STRING_SHOT
 	db 0
 Mon015_EvosMoves: ; 3b6ee (e:76ee)
 ;BEEDRILL
 ;Evolutions
 	db 0
 ;Learnset
-	db 12,FURY_ATTACK
-	db 16,FOCUS_ENERGY
-	db 20,TWINEEDLE
-	db 25,RAGE
-	db 30,PIN_MISSILE
-	db 35,AGILITY
+	db 10,FURY_ATTACK
+	db 13,AGILITY
+	db 16,RAGE
+	db 19,FOCUS_ENERGY
+	db 22,TWINEEDLE
+	db 25,MIMIC
+	db 28,PIN_MISSILE
+	db 31,SWIFT
+	db 34,TOXIC
+	db 37,DOUBLE_EDGE
 	db 0
 
 Mon170_EvosMoves: ; 3b6fc (e:76fc)
@@ -1426,46 +1473,42 @@ Mon085_EvosMoves: ; 3b6fe (e:76fe)
 ;Evolutions
 	db 0
 ;Learnset
-	db 20,GROWL
-	db 24,FURY_ATTACK
-	db 30,DRILL_PECK
-	db 39,RAGE
-	db 45,TRI_ATTACK
-	db 51,AGILITY
+	db 31,TRI_ATTACK
+	db 34,DRILL_PECK
+	db 41,SUPERSONIC
+	db 47,THRASH
 	db 0
 Mon057_EvosMoves: ; 3b70c (e:770c)
 ;PRIMEAPE
 ;Evolutions
 	db 0
 ;Learnset
-	db 15,KARATE_CHOP
-	db 21,FURY_SWIPES
-	db 27,FOCUS_ENERGY
-	db 37,SEISMIC_TOSS
-	db 46,THRASH
+	db 28,HEADBUTT
+	db 35,SEISMIC_TOSS
+	db 41,MEGA_KICK
+	db 47,THRASH
 	db 0
 Mon051_EvosMoves: ; 3b718 (e:7718)
 ;DUGTRIO
 ;Evolutions
 	db 0
 ;Learnset
-	db 15,GROWL
-	db 19,DIG
-	db 24,SAND_ATTACK
-	db 35,SLASH
-	db 47,EARTHQUAKE
+	db 26,TRI_ATTACK
+	db 28,MIMIC
+	db 33,SLASH
+	db 40,SCREECH
+	db 45,EARTHQUAKE
+	db 47,FISSURE
 	db 0
 Mon049_EvosMoves: ; 3b724 (e:7724)
 ;VENOMOTH
 ;Evolutions
 	db 0
 ;Learnset
-	db 24,POISONPOWDER
-	db 27,LEECH_LIFE
-	db 30,STUN_SPORE
-	db 38,PSYBEAM
-	db 43,SLEEP_POWDER
-	db 50,PSYCHIC_M
+	db 31,MEGA_DRAIN
+	db 37,PSYBEAM
+	db 41,TOXIC
+	db 47,PSYCHIC_M
 	db 0
 Mon087_EvosMoves: ; 3b732 (e:7732)
 ;DEWGONG
@@ -1505,19 +1548,24 @@ Mon011_EvosMoves: ; 3b747 (e:7747)
 	db EV_LEVEL,10,BUTTERFREE
 	db 0
 ;Learnset
+	db 7,HARDEN
+	db 9,STRING_SHOT
 	db 0
 Mon012_EvosMoves: ; 3b74c (e:774c)
 ;BUTTERFREE
 ;Evolutions
 	db 0
 ;Learnset
-	db 12,CONFUSION
-	db 15,POISONPOWDER
-	db 16,STUN_SPORE
-	db 17,SLEEP_POWDER
-	db 21,SUPERSONIC
-	db 26,WHIRLWIND
-	db 32,PSYBEAM
+	db 10,CONFUSION
+	db 12,POISONPOWDER
+	db 16,GUST
+	db 18,STUN_SPORE
+	db 22,SWIFT
+	db 24,SUPERSONIC
+	db 28,PSYBEAM
+	db 30,SLEEP_POWDER
+	db 34,MEGA_DRAIN
+	db 36,WHIRLWIND
 	db 0
 Mon068_EvosMoves: ; 3b75c (e:775c)
 ;MACHAMP
@@ -1542,11 +1590,10 @@ Mon055_EvosMoves: ; 3b76a (e:776a)
 ;Evolutions
 	db 0
 ;Learnset
-	db 28,TAIL_WHIP
-	db 31,DISABLE
-	db 39,CONFUSION
-	db 48,FURY_SWIPES
-	db 59,HYDRO_PUMP
+	db 33,ICE_PUNCH
+	db 38,SCREECH
+	db 43,HYPNOSIS
+	db 47,HYDRO_PUMP
 	db 0
 Mon097_EvosMoves: ; 3b776 (e:7776)
 ;HYPNO
@@ -1701,11 +1748,11 @@ Mon105_EvosMoves: ; 3b7f9 (e:77f9)
 ;Evolutions
 	db 0
 ;Learnset
-	db 25,LEER
-	db 33,FOCUS_ENERGY
-	db 41,THRASH
-	db 48,BONEMERANG
-	db 55,RAGE
+	db 28,BONEMERANG
+	db 33,HEADBUTT
+	db 37,SCREECH
+	db 43,THRASH
+	db 47,EARTHQUAKE
 	db 0
 
 Mon178_EvosMoves: ; 3b805 (e:7805)
@@ -1748,24 +1795,22 @@ Mon017_EvosMoves: ; 3b823 (e:7823)
 	db EV_LEVEL,36,PIDGEOT
 	db 0
 ;Learnset
-	db 5,SAND_ATTACK
-	db 12,QUICK_ATTACK
-	db 21,WHIRLWIND
-	db 31,WING_ATTACK
-	db 40,AGILITY
-	db 49,MIRROR_MOVE
+	db 18,WING_ATTACK
+	db 22,AGILITY
+	db 27,SWIFT
+	db 32,MIRROR_MOVE
+	db 37,WHIRLWIND
+	db 42,DOUBLE_EDGE
 	db 0
 Mon018_EvosMoves: ; 3b834 (e:7834)
 ;PIDGEOT
 ;Evolutions
 	db 0
 ;Learnset
-	db 5,SAND_ATTACK
-	db 12,QUICK_ATTACK
-	db 21,WHIRLWIND
-	db 31,WING_ATTACK
-	db 44,AGILITY
-	db 54,MIRROR_MOVE
+	db 36,MIMIC
+	db 38,WING_ATTACK
+	db 44,SAND_ATTACK
+	db 50,DOUBLE_EDGE
 	db 0
 Mon121_EvosMoves: ; 3b842 (e:7842)
 ;STARMIE
@@ -1935,12 +1980,12 @@ Mon033_EvosMoves: ; 3b8d8 (e:78d8)
 	db EV_ITEM,MOON_STONE,1,NIDOKING
 	db 0
 ;Learnset
-	db 8,HORN_ATTACK
-	db 14,POISON_STING
-	db 23,FOCUS_ENERGY
-	db 32,FURY_ATTACK
-	db 41,HORN_DRILL
-	db 50,DOUBLE_KICK
+	db 16,CONFUSION
+	db 23,SUPERSONIC
+	db 28,HORN_ATTACK
+	db 35,TAKE_DOWN
+	db 38,SUPER_FANG
+	db 42,HORN_DRILL
 	db 0
 Mon030_EvosMoves: ; 3b8ea (e:78ea)
 ;NIDORINA
@@ -1948,12 +1993,12 @@ Mon030_EvosMoves: ; 3b8ea (e:78ea)
 	db EV_ITEM,MOON_STONE,1,NIDOQUEEN
 	db 0
 ;Learnset
-	db 8,SCRATCH
-	db 14,POISON_STING
+	db 16,BITE
 	db 23,TAIL_WHIP
-	db 32,BITE
-	db 41,FURY_SWIPES
-	db 50,DOUBLE_KICK
+	db 28,DOUBLE_KICK
+	db 35,FOCUS_ENERGY
+	db 38,SUPER_FANG
+	db 42,TAKE_DOWN
 	db 0
 Mon074_EvosMoves: ; 3b8fc (e:78fc)
 ;GEODUDE
@@ -1961,12 +2006,13 @@ Mon074_EvosMoves: ; 3b8fc (e:78fc)
 	db EV_LEVEL,25,GRAVELER
 	db 0
 ;Learnset
-	db 11,DEFENSE_CURL
-	db 16,ROCK_THROW
-	db 21,SELFDESTRUCT
-	db 26,HARDEN
-	db 31,EARTHQUAKE
-	db 36,EXPLOSION
+	db 11,ROCK_THROW
+	db 15,COUNTER
+	db 18,MEGA_PUNCH
+	db 22,MIMIC
+	db 29,DIG
+	db 32,SELFDESTRUCT
+	db 37,EARTHQUAKE
 	db 0
 Mon137_EvosMoves: ; 3b90d (e:790d)
 ;PORYGON
@@ -1983,10 +2029,11 @@ Mon142_EvosMoves: ; 3b917 (e:7917)
 ;Evolutions
 	db 0
 ;Learnset
-	db 33,SUPERSONIC
-	db 38,BITE
-	db 45,TAKE_DOWN
-	db 54,HYPER_BEAM
+	db 17,BITE
+	db 25,AGILITY
+	db 33,ROCK_SLIDE
+	db 41,SKY_ATTACK
+	db 44,HYPER_BEAM
 	db 0
 
 Mon184_EvosMoves: ; 3b921 (e:7921)

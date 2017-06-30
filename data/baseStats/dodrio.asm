@@ -7,15 +7,15 @@ db 100 ; base speed
 db 60 ; base special
 db NORMAL ; species type 1
 db FLYING ; species type 2
-db 45 ; catch rate
-db 158 ; base exp yield
+db 70 ; catch rate
+db 178 ; base exp yield
 INCBIN "pic/bmon/dodrio.pic",0,1 ; 77, sprite dimensions
 dw DodrioPicFront
 dw DodrioPicBack
 ; attacks known at lvl 0
-db PECK
-db GROWL
-db FURY_ATTACK
+db QUICK_ATTACK
+db MIRROR_MOVE
+db DRILL_PECK
 db 0
 db 0 ; growth rate
 ; learnset

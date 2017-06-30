@@ -115,10 +115,10 @@ ENDC
 	call LoadScreenTilesFromBuffer2
 	call EnableLCD
 IF DEF(_RED)
-	ld a,CHARMANDER ; which Pokemon to show first on the title screen
+	ld a,CHARIZARD ; which Pokemon to show first on the title screen
 ENDC
 IF DEF(_BLUE)
-	ld a,SQUIRTLE ; which Pokemon to show first on the title screen
+	ld a,CHARIZARD ; which Pokemon to show first on the title screen
 ENDC
 
 	ld [wWhichTrade], a ; wWhichTrade

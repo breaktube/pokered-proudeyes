@@ -4,17 +4,17 @@ db 80 ; base hp
 db 105 ; base attack
 db 65 ; base defense
 db 130 ; base speed
-db 60 ; base special
+db 75 ; base special
 db ROCK ; species type 1
 db FLYING ; species type 2
 db 45 ; catch rate
-db 202 ; base exp yield
+db 222 ; base exp yield
 INCBIN "pic/bmon/aerodactyl.pic",0,1 ; 77, sprite dimensions
 dw AerodactylPicFront
 dw AerodactylPicBack
 ; attacks known at lvl 0
 db WING_ATTACK
-db AGILITY
+db SUPERSONIC
 db 0
 db 0
 db 5 ; growth rate

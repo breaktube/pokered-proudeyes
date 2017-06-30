@@ -4,23 +4,23 @@ db 65 ; base hp
 db 105 ; base attack
 db 60 ; base defense
 db 95 ; base speed
-db 60 ; base special
+db 70 ; base special
 db FIGHTING ; species type 1
 db FIGHTING ; species type 2
-db 75 ; catch rate
-db 149 ; base exp yield
+db 40 ; catch rate
+db 230 ; base exp yield
 INCBIN "pic/bmon/primeape.pic",0,1 ; 77, sprite dimensions
 dw PrimeapePicFront
 dw PrimeapePicBack
 ; attacks known at lvl 0
-db SCRATCH
+db RAGE
 IF !DEF(_YELLOW)
-	db LEER
+	db MEDITATE
 ENDC
 db KARATE_CHOP
-db FURY_SWIPES
+db 0
 IF DEF(_YELLOW)
-	db LOW_KICK
+	db MEDITATE
 ENDC
 db 0 ; growth rate
 ; learnset

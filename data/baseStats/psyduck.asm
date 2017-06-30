@@ -4,17 +4,17 @@ db 50 ; base hp
 db 52 ; base attack
 db 48 ; base defense
 db 55 ; base speed
-db 50 ; base special
+db 65 ; base special
 db WATER ; species type 1
 db WATER ; species type 2
-db 190 ; catch rate
-db 80 ; base exp yield
+db 73 ; catch rate
+db 168 ; base exp yield
 INCBIN "pic/bmon/psyduck.pic",0,1 ; 55, sprite dimensions
 dw PsyduckPicFront
 dw PsyduckPicBack
 ; attacks known at lvl 0
 db SCRATCH
-db 0
+db TAIL_WHIP
 db 0
 db 0
 db 0 ; growth rate

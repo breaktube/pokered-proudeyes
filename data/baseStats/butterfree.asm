@@ -4,18 +4,18 @@ db 60 ; base hp
 db 45 ; base attack
 db 50 ; base defense
 db 70 ; base speed
-db 80 ; base special
+db 90 ; base special
 db BUG ; species type 1
 db FLYING ; species type 2
-db 45 ; catch rate
-db 160 ; base exp yield
+db 70 ; catch rate
+db 178 ; base exp yield
 INCBIN "pic/bmon/butterfree.pic",0,1 ; 77, sprite dimensions
 dw ButterfreePicFront
 dw ButterfreePicBack
 ; attacks known at lvl 0
-db CONFUSION
-db 0
-db 0
+db GUST
+db POISONPOWDER
+db TACKLE
 db 0
 db 0 ; growth rate
 ; learnset

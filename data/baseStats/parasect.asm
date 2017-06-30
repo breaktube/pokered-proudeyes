@@ -7,15 +7,15 @@ db 30 ; base speed
 db 80 ; base special
 db BUG ; species type 1
 db GRASS ; species type 2
-db 75 ; catch rate
-db 128 ; base exp yield
+db 70 ; catch rate
+db 178 ; base exp yield
 INCBIN "pic/bmon/parasect.pic",0,1 ; 77, sprite dimensions
 dw ParasectPicFront
 dw ParasectPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db STUN_SPORE
 db LEECH_LIFE
+db SPORE
+db BODY_SLAM
 db 0
 db 0 ; growth rate
 ; learnset

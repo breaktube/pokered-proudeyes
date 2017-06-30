@@ -8,14 +8,14 @@ db 70 ; base special
 db GROUND ; species type 1
 db GROUND ; species type 2
 db 50 ; catch rate
-db 153 ; base exp yield
+db 211 ; base exp yield
 INCBIN "pic/bmon/dugtrio.pic",0,1 ; 77, sprite dimensions
 dw DugtrioPicFront
 dw DugtrioPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db GROWL
+db SAND_ATTACK
 db DIG
+db SCREECH
 db 0
 db 0 ; growth rate
 ; learnset
